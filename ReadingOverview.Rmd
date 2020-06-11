@@ -1,0 +1,163 @@
+---
+title: "Reading Overview"
+author: "Jon Page"
+date: "11/06/2020"
+output:
+  html_document:
+    df_print: paged
+---
+
+
+## Introduction
+
+For each paper I should answer the following with one or two sentences:
+
++ What have I learned?
++ What could I possibly do differently in a rerun of the paper?
++ What is an open question posed by the paper?
+
+This is methodology suggested by MDK to help investigate the gaps in knowledge that exist.
+
+***
+# Overarching Questions
+
+These questions are to be updated/honed as research proceeds.
+
++ **Does the influence of antecedent effects on grassland response to climate change show impacts of seasonality - both in terms of current response (i.e. is the spring response more dependent on lags than the summer response) and in terms of antecedent effects (is last spring's rain more important than the rain received e.g. 6 months ago?)**
++ **Which drivers exhibit strong antecedent influence on TASFace and are these reflected in existing land models and other data sets?**
+
+***
+## Initial Reading
+
+These papers are from MDK's email prior to arrival.
+
+**Ogle et al, 2015, *Quantifying ecological memory in plant and ecosystem
+processes***
+
+[@ogleQuantifyingEcologicalMemory2015]
+
+  1. Stochastic Antecedent Modelling (SAM) is a very effective method to explain responses of ecosystems to previous conditions.
+  2. Each response explored was only modelled at a single site - how does the method perform across other ecosystems?
+  3. *Is it possible to identify the key factors that influence how memory-driven a particular ecosystem is likely to be - e.g. Which type of grasslands are more likely to be heavily dependent on memory?*
+
+**Hufkens et al, 2016, *Productivity of North American grasslands is increased under future climate scenarios despite rising aridity***
+
+[@hufkensProductivityNorthAmerican2016]
+
+  1. Productivity of North American grasslands increases despite less precipitation/more ET due to summer decreases being off-set by spring and autumn growth. This is region dependent due to distinct seasonalities appearing.
+  2. eCO~2~ effects weren't included in this study - it was entirely temperature and precipitation driven. Higher CO~2~ might possible offset the losses seen in summer and possibly mitigate some of the regional seasonalities.
+  3. *Does increasing aridity impact the role of lags in grassland response to climate change - e.g Do arid regions depend more or less on last year's drivers?*
+
+**Ryan et al, 2017, *Gross primary production responses to warming, elevated CO~2~, and irrigation: quantifying the drivers of ecosystem physiology in a semiarid grassland***
+
+[@ryanGrossPrimaryProduction2017]
+
+  1. Antecedent VPD and T~air~ (over past week) are significant drivers of grassland response (SWC less so) to climate change. The seasonality of response is also affected.
+  2. The study only used data from PHACE - could it be extended to other grasslands with different climates?
+  3. *Are short-term or long-term lags the largest drivers of grassland response to climate change - e.g. does last year's precipitation or last week's VPD influence today's GPP more?*
+
+**Williams et al, 2005, *An improved analysis of forest carbon dynamics using
+data assimilation***
+
+[@williamsImprovedAnalysisForest2005]
+
+  1. Data assimilation, constraining models with time series, dramatically improves precision and accuracy when estimating carbon fluxes, even with very simple models.
+  2. Does DA work with other time series such as precipitation and VPD, etc?
+  3. *Is it possible to QUANTIFY the impact of lacking data series when measuring response of grasslands to climate change - e.g. could I get a dataset for a site and randomly thin it/change observation time-scales and assess how this impacts our understanding of the response?*
+
+**De Kauwe et al, 2017, *Challenging terrestrial biosphere models with data from the long-term multifactor Prairie Heating and CO2 Enrichment experiment***
+
+[@dekauweChallengingTerrestrialBiosphere2017]
+
+  1. Terrestial biosphere models are poor at modelling carbon allocation, phenology and water stress - even when different models arrive at the same conclusion, it is often for contradictory reasons.
+  2. Could other datasets be used e.g. TASFace in a similar way? Is PHACE just particularly hard to model?
+  3. *What amount of the model error is due to a lack of accounting for antecedent effects?*
+
+**Abramowitz, 2012, *Towards a public, standardized, diagnostic benchmarking system for land surface models***
+
+[@abramowitzPublicStandardizedDiagnostic2012]
+
+  1. "Benchmarking" model performance is important - a simple model can sometimes outperform complicated models. Predicting a model's accuracy a priori can be useful.
+  2. No further questions
+  3. *To what extent would computing antecedent effects help improve the accuracy of LSMs?*
+
+***
+## Further Initial Reading
+
+These papers include recommended reading from MDK to start the process of considering possible research proposals, as well as papers I've found by looking for reviews in Nature and authors who focus on these areas
+
+**Hovenden et al, 2019, *Globally consistent influences of seasonal precipitation limit grassland biomass response to elevated CO~2~***
+
+[@hovendenGloballyConsistentInfluences2019]
+
+ 1. Carbon fertilisation is suppressed by high non-spring precipitation and enhanced by high spring precipitation, when the precipitation is viewed as a "tendency" for such volumes for a particular ecosystem.
+ 2. Hovenden et al state that high/low growth in one year often results in the opposite response in following years due to nutrient stocks for grasslands. Ogle et al state that high/low growth in one year results in a similar response the following year in trees.
+ 3.  *Are there lags in this response to spring/non-spring precipitation - e.g. does high spring precipitation in year t-1 influence year t?*
+
+**Hovenden and Newton, 2018, *Plant responses to CO~2~ are a question of time***
+
+[@hovendenPlantResponsesCO22018]
+
+1. Long term experiments might indicate that accepted responses of C3 and C4 grasses to eCO~2~ are not borne out over longer timescales. This is very possibly due to mineralisation and the limiting of nitrogen.
+2.  This article was purely experimental - do any models also show an initial C3 response that declines and is eventually totally eclipsed by a longer term C4 response?
+3. *Does the role of antecedent effects vary between C3 and C4 species?*
+
+**Kannenberg et al, 2020, *Ghosts of the Past: how drought legacy effects shape forest functioning and carbon cycling***
+
+[@kannenbergGhostsHowDrought2020]
+
+1. Legacy effects from droughts are ecosystem dependent but we lack key knowledge about the underlying drivers.
+2. The metric considered when exploring legacy effects can have an impact on what is seen (e.g. GPP vs tree ring growth), even where metrics are measuring similar processses. To what extent is this seen in grasses when comparing e.g. GPP, NPP and NEE
+3. *What are the main mechanisms for legacy effects in grasslands and how does these differ from forests?*
+
+**Ogle and Barber, 2016, *Plant and Ecosystem Memory***
+
+[@oglePlantEcosystemMemory2016]
+
+Basically a more "layperson" discussion of the Ogle et al paper from 2015.
+Interesting however in how temperature and precipitation have different memories and how the yearly and monthly weights are discussed separately.
+
+**Peltier, Barber and Ogle, 2018, *Quantifying antecedent climatic drivers of tree growth in the Southwestern US***
+
+[@peltierQuantifyingAntecedentClimatic2018]
+
+1. Further use of SAM to explore the effects of antecedent climatic drivers.
+2. The model added an autoregressive term for tree-ring growth - does prior growth affect current growth? This might be an interesting addition to my model.
+3. The paper uses the Palmer Drought Severity Index - *Could a drought index be used in my model?*
+
+**Petrie et al, 2016, *The sensitivity of carbon exchanges in Great Plains grasslands to precipitation variability***
+
+[@petrieSensitivityCarbonExchanges2016]
+
+1. The location of grasslands (Western vs Eastern US) has a substantial effect on their productivity and response to precipitation. The paper defines a method of identifying the onset of the growing season which is claimed to work well for grassland responses.
+2. Interestingly, the grasslands in the study fluctuate between sources and sinks of carbon - is this true for most grasslands? Does the switch occur frequently?
+3. *Does the percentage of GPP occurring within the growing season correlate with the dependence on antecedent effects for grasslands?*
+
+**Zhang et al, 2015, *Lagged climatic effects on carbon fluxes over three grassland ecosystems in China***
+
+[@zhangLaggedClimaticEffects2015]
+
+1. The study calculates the correlation (Student's *t*-test) between climatic drivers which are shifted backwards a month at a time and ecosystem carbon fluxes. It found that, at these sites which are alpine/temperate, lags of up to 6 months were seen.
+2. The study uses 6 climatic drivers (Ta, Rn, Ts, SWC, PPT and VPD). These seem to interact quite a lot - PPT will affect SWC and Ts, Ta will affect Ts, etc. How can these nonlinearities be accounted for?
+3. Does the "moving window" approach provide substantially different results to the SAM approach?
+
+**Lemoine et al, 2018, *Drought timing, not previous drought exposure, determines sensitivity of two shortgrass species to water stress***
+
+[@lemoineDroughtTimingNot2018]
+
+1. Grasses do not show acclimation to droughts within a year - a late year drought has a weaker impact than an early year drought, but this is due to standard developmental progress of grasses rather than the plant responding to the the earlier drought.
+2. This was a growth chamber experiment with the statistical analysis carried out using hierarchial Bayesian methods. To what extent does drought timing influence the effect of antecedent rainfall? Maintains emphasis on growing season precipitation irrespective of drought frequency?
+3. *Are growing season droughts more significant than later season droughts when reviewing antecedent conditions?*
+
+**Ryan et al, 2015, *Antecedent moisture and temperature conditions modulate the response of ecosystem respiration to elevated CO2 and warming***
+
+[@ryanAntecedentMoistureTemperature2015]
+
+1. Paper with interesting presentation techniques for SAM as well as a relatively complex SAM model. Use of daily/weekly data allows for significant findings (and loads of parameters) from a 5-year data set
+2. Is it possible to investigate productivity at smaller time-scales? Could I look at say, monthly, productivity from the perspective of antecedent temperature and rainfall?
+3. *How is productivity influenced by similar conditions, and does this vary across sites?*
+
+
+
+***
+## Bibliography
