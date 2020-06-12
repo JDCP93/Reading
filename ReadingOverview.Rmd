@@ -193,9 +193,10 @@ MDK suugest I resurrect this document and continue to explore possible questions
 
 [@hovendenVariabilityPrecipitationSeasonality2018]
 
-* What have I learned?
-* What could I possibly do differently in a rerun of the paper?
-* *What is an open question posed by the paper??*
+* The effect of eCO2 on productivity in SE Australian grasslands is heavily dependent on a "Seasonal Rainfall Balance", and can vary wildly from negative to positive impacts.
+* It would be interesting to see how the SRB interplays with antecedent conditions. 
+* *Do years at TasFACE with varying SRB show different dependence on lags?*
+* *Do models e.g. CABLE also exhibit the SRB-CFE relationship (even if magnitudes are not the same)?*
 
 $~$
 
