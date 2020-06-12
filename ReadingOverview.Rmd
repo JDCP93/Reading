@@ -199,6 +199,18 @@ MDK suugest I resurrect this document and continue to explore possible questions
 
 $~$
 
+**17. Liu et al, 2019, *Ecological memory of daily carbon exchange across the globe and its importance in drylands***
+
+[@liuEcologicalMemoryDaily2019]
+
+* This paper is basically exactly what I was attempting - obviously way more in-depth and insightful. 
+* The key findings are:
+    - Ecological memory (biological + environmental) is correlated to the aridity of the site, irrespective of biome.
+    - Grasslands and shrublands exhibit strong dependence on antecedent environmental conditions on a daily time sacle.
+* I could take the exact same model and apply it to one site on both observations and using e.g. CABLE data. How does the model differ from the observations?
+* *To what extent is this ecological memory exhibited within TBMs?*
+
+$~$
 
 
 
