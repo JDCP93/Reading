@@ -219,6 +219,13 @@ $~$
 
 I hope to talk to Kiona this week to discuss SAM and work through any issues I'm having. I will also attempt to replicate the model from Liu et al (17.). Of course, I also hope to read some more papers :)
 
+**18. Ogle et al, 2016, *Quantifying and reducing uncertainties in estimated soil CO2 fluxes with hierarchical data-model integration***
+    
+[@ogleQuantifyingReducingUncertainties2016]
+    
+* The paper is essentially an argument for the superiority of hierarchical models over non-hierarchical models. H-models have similar or greater predictive power, smaller CIs and fewer effective parameters than NH-models, which is mostly attributed to the ability to "borrow strength", where 1) bad data is supported by good data and 2) parameters are calculated across sessions.
+* I'm not sure I could add anything to this paper - it is a technical argument for the power of hierarchical Bayesian modelling which, at least for this application, is evident.
+* *Are there better models connecting productivity to precipitation rather than using a simple linear weighted model? Could some form of process-based model be used instead within SAM?*
 
 
 
