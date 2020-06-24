@@ -227,7 +227,17 @@ I hope to talk to Kiona this week to discuss SAM and work through any issues I'm
 * I'm not sure I could add anything to this paper - it is a technical argument for the power of hierarchical Bayesian modelling which, at least for this application, is evident.
 * *Are there better models connecting productivity to precipitation rather than using a simple linear weighted model? Could some form of process-based model be used instead within SAM?*
 
+***
 
+## Week of 22nd June
+
+**19. Wu et al, 2018, *Asymmetric responses of primary productivity to altered precipitation simulated by ecosystem models across three long-term grassland sites***
+
+[@wuAsymmetricResponsesPrimary2018]
+
+* Models generally agree with observations that changes in productivity relative to rainfall are more pronounced across sites than within sites. However models overestimate the impact of drought and underestimate the effect of additional rainfall on productivity. 
+* The paper only increased intensity of precipitation when modelling changes; there were no changes to the temporal structure.
+* *The paper suggests that SWC provides a buffer to the response to rainfall - how does SWC change under temporally altered precipitation regimes?*
 
 ***
 
