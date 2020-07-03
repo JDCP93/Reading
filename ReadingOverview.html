@@ -580,11 +580,25 @@ summary {
 </ul>
 <hr />
 </div>
-<div id="format" class="section level2">
-<h2>Format</h2>
-<p>The below is the format I use:</p>
-<p><strong>##. Author(s), Year, <em>Title goes here</em></strong></p>
-<p><span class="citation">(<span class="citeproc-not-found" data-reference-id="ZoteroReferenceHere"><strong>???</strong></span>)</span></p>
+<div id="week-of-29th-june" class="section level2">
+<h2>Week of 29th June</h2>
+<p><strong>20. Conn et al, 2018, <em>A guide to Bayesian model checking for ecologists</em></strong></p>
+<p><span class="citation">(Conn et al., 2018)</span></p>
+<ul>
+<li>More model checks are required when using Bayesian methods. A list of some related methods and this is all supposedly provided in an R package HierarchicalGOF.</li>
+<li><em>I should make sure my models are robustly checked</em></li>
+</ul>
+<p><span class="math inline">\(~\)</span></p>
+<p><strong>21. Marchin et al, 2018, <em>Productivity of an Australian mountain grassland is limited by temperature and dryness despite long growing seasons</em></strong></p>
+<p><span class="citation">(Marchin et al., 2018)</span></p>
+<ul>
+<li>Paper finds that soil temperature and SWC are strongest drivers of GPP and ER. Solar Irradiance just about beats them for NEE.</li>
+<li>Soil temperature is closely correlated to air temperature so Tair was excluded from the study - however, this in turn surely means that Tair can be used and Tsoil excluded? One might assume that SWC is correlated to VPD/Tair/Precip so similar reasoning holds here. However, they found that SWC is important but precip and VPD are much less important. Bare in mind, this is a montane site. MAP is 1100mm, relatively uniformly distributed throughout the year.</li>
+<li><em>How do the results change in a more arid ecosystem?</em></li>
+</ul>
+<p><span class="math inline">\(~\)</span></p>
+<p><strong>22. Pastore et al, 2019, <em>Strong photosynthetic acclimation and enhanced water-use efficiency in grassland functional groups persist over 21 years of CO2 enrichment, independent of nitrogen supply</em></strong></p>
+<p><span class="citation">(Pastore et al., 2019)</span></p>
 <ul>
 <li>What have I learned?</li>
 <li>What could I possibly do differently in a rerun of the paper?</li>
@@ -593,11 +607,28 @@ summary {
 <p><span class="math inline">\(~\)</span></p>
 <hr />
 </div>
+<div id="format" class="section level2">
+<h2>Format</h2>
+<p>The below is the format I use:</p>
+<pre><code>  **##. Author(s), Year, *Title goes here***
+
+  [@ZoteroReferenceHere]
+
+  * What have I learned?
+  * What could I possibly do differently in a rerun of the paper?
+  * *What is an open question posed by the paper??*
+
+  $~$</code></pre>
+<hr />
+</div>
 <div id="bibliography" class="section level2 unnumbered">
 <h2 class="unnumbered">Bibliography</h2>
 <div id="refs" class="references hanging-indent">
 <div id="ref-abramowitzPublicStandardizedDiagnostic2012">
 <p>Abramowitz, G., 2012. Towards a public, standardized, diagnostic benchmarking system for land surface models. Geoscientific Model Development 5, 819–827. <a href="https://doi.org/10.5194/gmd-5-819-2012">https://doi.org/10.5194/gmd-5-819-2012</a></p>
+</div>
+<div id="ref-connGuideBayesianModel2018">
+<p>Conn, P.B., Johnson, D.S., Williams, P.J., Melin, S.R., Hooten, M.B., 2018. A guide to Bayesian model checking for ecologists. Ecological Monographs 88, 526–542. <a href="https://doi.org/10.1002/ecm.1314">https://doi.org/10.1002/ecm.1314</a></p>
 </div>
 <div id="ref-dekauweChallengingTerrestrialBiosphere2017">
 <p>De Kauwe, M.G., Medlyn, B.E., Walker, A.P., Zaehle, S., Asao, S., Guenet, B., Harper, A.B., Hickler, T., Jain, A.K., Luo, Y., Lu, X., Luus, K., Parton, W.J., Shu, S., Wang, Y.-P., Werner, C., Xia, J., Pendall, E., Morgan, J.A., Ryan, E.M., Carrillo, Y., Dijkstra, F.A., Zelikova, T.J., Norby, R.J., 2017. Challenging terrestrial biosphere models with data from the long-term multifactor Prairie Heating and <span class="smallcaps">CO</span> <sub>2</sub> Enrichment experiment. Global Change Biology 23, 3623–3645. <a href="https://doi.org/10.1111/gcb.13643">https://doi.org/10.1111/gcb.13643</a></p>
@@ -623,6 +654,9 @@ summary {
 <div id="ref-liuEcologicalMemoryDaily2019">
 <p>Liu, Y., Schwalm, C.R., Samuels-Crow, K.E., Ogle, K., 2019. Ecological memory of daily carbon exchange across the globe and its importance in drylands. Ecology Letters 22, 1806–1816. <a href="https://doi.org/10.1111/ele.13363">https://doi.org/10.1111/ele.13363</a></p>
 </div>
+<div id="ref-marchinProductivityAustralianMountain2018">
+<p>Marchin, R.M., McHugh, I., Simpson, R.R., Ingram, L.J., Balas, D.S., Evans, B.J., Adams, M.A., 2018. Productivity of an Australian mountain grassland is limited by temperature and dryness despite long growing seasons. Agricultural and Forest Meteorology 256-257, 116–124. <a href="https://doi.org/10.1016/j.agrformet.2018.02.030">https://doi.org/10.1016/j.agrformet.2018.02.030</a></p>
+</div>
 <div id="ref-oglePlantEcosystemMemory2016">
 <p>Ogle, K., Barber, J.J., 2016. Plant and Ecosystem Memory. CHANCE 29, 16–22. <a href="https://doi.org/10.1080/09332480.2016.1181961">https://doi.org/10.1080/09332480.2016.1181961</a></p>
 </div>
@@ -631,6 +665,9 @@ summary {
 </div>
 <div id="ref-ogleQuantifyingReducingUncertainties2016">
 <p>Ogle, K., Ryan, E., Dijkstra, F.A., Pendall, E., 2016. Quantifying and reducing uncertainties in estimated soil CO2 fluxes with hierarchical data-model integration. Journal of Geophysical Research: Biogeosciences 121, 2935–2948. <a href="https://doi.org/10.1002/2016JG003385">https://doi.org/10.1002/2016JG003385</a></p>
+</div>
+<div id="ref-pastoreStrongPhotosyntheticAcclimation2019a">
+<p>Pastore, M.A., Lee, T.D., Hobbie, S.E., Reich, P.B., 2019. Strong photosynthetic acclimation and enhanced water-use efficiency in grassland functional groups persist over 21 years of CO2 enrichment, independent of nitrogen supply. Global Change Biology 25, 3031–3044. <a href="https://doi.org/10.1111/gcb.14714">https://doi.org/10.1111/gcb.14714</a></p>
 </div>
 <div id="ref-peltierQuantifyingAntecedentClimatic2018">
 <p>Peltier, D.M.P., Barber, J.J., Ogle, K., 2018. Quantifying antecedent climatic drivers of tree growth in the Southwestern US. Journal of Ecology 106, 613–624. <a href="https://doi.org/10.1111/1365-2745.12878">https://doi.org/10.1111/1365-2745.12878</a></p>

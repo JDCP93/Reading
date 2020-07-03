@@ -241,13 +241,30 @@ I hope to talk to Kiona this week to discuss SAM and work through any issues I'm
 
 ***
 
-## Format
+## Week of 29th June
 
-The below is the format I use:
+**20. Conn et al, 2018, *A guide to Bayesian model checking for ecologists***
 
-**##. Author(s), Year, *Title goes here***
+[@connGuideBayesianModel2018]
 
-[@ZoteroReferenceHere]
+* More model checks are required when using Bayesian methods. A list of some related methods and this is all supposedly provided in an R package HierarchicalGOF.
+* *I should make sure my models are robustly checked*
+
+$~$
+
+**21. Marchin et al, 2018, *Productivity of an Australian mountain grassland is limited by temperature and dryness despite long growing seasons***
+
+[@marchinProductivityAustralianMountain2018]
+
+* Paper finds that soil temperature and SWC are strongest drivers of GPP and ER. Solar Irradiance just about beats them for NEE.
+* Soil temperature is closely correlated to air temperature so Tair was excluded from the study - however, this in turn surely means that Tair can be used and Tsoil excluded? One might assume that SWC is correlated to VPD/Tair/Precip so similar reasoning holds here. However, they found that SWC is important but precip and VPD are much less important. Bare in mind, this is a montane site. MAP is 1100mm, relatively uniformly distributed throughout the year.
+* *How do the results change in a more arid ecosystem?*
+
+$~$
+
+**22. Pastore et al, 2019, *Strong photosynthetic acclimation and enhanced water-use efficiency in grassland functional groups persist over 21 years of CO2 enrichment, independent of nitrogen supply***
+
+[@pastoreStrongPhotosyntheticAcclimation2019a]
 
 * What have I learned?
 * What could I possibly do differently in a rerun of the paper?
@@ -255,5 +272,21 @@ The below is the format I use:
 
 $~$
 
+***
+
+## Format
+
+The below is the format I use:
+```
+  **##. Author(s), Year, *Title goes here***
+
+  [@ZoteroReferenceHere]
+
+  * What have I learned?
+  * What could I possibly do differently in a rerun of the paper?
+  * *What is an open question posed by the paper??*
+
+  $~$
+```
 ***
 ## Bibliography
