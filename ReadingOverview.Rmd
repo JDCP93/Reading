@@ -264,13 +264,23 @@ $~$
 
 **22. Pastore et al, 2019, *Strong photosynthetic acclimation and enhanced water-use efficiency in grassland functional groups persist over 21 years of CO2 enrichment, independent of nitrogen supply***
 
-[@pastoreStrongPhotosyntheticAcclimation2019a]
+[@pastoreStrongPhotosyntheticAcclimation2019]
 
-* What have I learned?
-* What could I possibly do differently in a rerun of the paper?
-* *What is an open question posed by the paper??*
+* Plant photosynthesis strongly acclimates to eCO2 across C3 and C4 grasses, forbs, and legumes. WUE remains strongly enhanced. Increasing N availability did not reduce the acclimation response.
+* One key limitation of this paper is that it looks only at a single site - climate does not vary. How would climate affect the role of N?
+* *Does climate change the differences of C4 vs C3 under eCO2?*
 
 $~$
+
+**23. Walker et al, 2015, *Predicting long-term carbon sequestration in response to CO2 enrichment: How and why do current ecosystem models differ?***
+
+[@walkerPredictingLongtermCarbon2015]
+
+* Model variability in the prediction of NPP drives the variability of carbon sequestration. How models determine N uptake is the major driver of determining how ecosystem NPP responds to eCO2. It is unlikely that "priming" is a sustainable source of N - it is through the inability to accurately model N uptake that we cannot predict C sequestration with any real certainty. This is due to Progressive Nitrogen Limitation (PNL), where NPP response to eCO2 progressively declines relative to aCO2 due to reduced N mineralisation rates.
+* Step changes in FACE produce results that aren't seen when models introduce a gradual increase in CO2 over 50 years. How do these differences change as the rate of increase in CO2 increases (i.e. If we gradually elevated CO2 to 550ppm over just 5 years, do we still see the shock to the ecosystem?)?
+* *Does this result hold for a grassland?*
+
+
 
 ***
 
@@ -278,13 +288,13 @@ $~$
 
 The below is the format I use:
 ```
-  **##. Author(s), Year, *Title goes here***
+**##. Author(s), Year, *Title goes here***
 
-  [@ZoteroReferenceHere]
+[@ZoteroReferenceHere]
 
-  * What have I learned?
-  * What could I possibly do differently in a rerun of the paper?
-  * *What is an open question posed by the paper??*
+* What have I learned?
+* What could I possibly do differently in a rerun of the paper?
+* *What is an open question posed by the paper??*
 
   $~$
 ```
